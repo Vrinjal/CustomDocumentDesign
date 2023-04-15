@@ -1,0 +1,101 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    
+    
+    <style type="text/css">
+        .style1
+        {
+            text-align: center;
+            margin-right: 0px;
+        }
+        .style2
+        {
+            font-size: x-large;
+        }
+        .style3
+        {
+            width: 22px;
+        }
+        .style5
+        {
+            height: 24px;
+        }
+        .style6
+        {
+            text-align: center;
+            margin-right: 0px;
+            width: 226px;
+        }
+       
+        
+        .style7
+        {
+            width: 705px;
+        }
+       
+        
+    </style>
+    
+    
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table align="center" class="style1" bgcolor="#FFCCCC">
+        <tr>
+            <td colspan="4">
+                &nbsp;</td>
+        </tr>
+        <tr>
+            <td colspan="4" class="style5">
+                </td>
+        </tr>
+        <tr>
+            <td class="style6">
+                <span><em><span class="style2"><strong>News<br />
+                <br />
+                </strong></span>&nbsp;KSKJKJCHKJHSKJCKJSHKJSH<br />
+                LKJSLKKHKJHKHEWJHKHKH<br />
+                JSLJCDKHKJHCKSJHCKLEWH<br />
+                JLKSDSLHVKHSKHSHKHKHK<br />
+                JSLJLKHKWHDKHKHSKDHHK<br />
+                KJHKHEKWHHIUWDHIUHIWH<br />
+                NKSJBJSCJHWJHBJBKJBKBKK<br />
+                BDJBWHIUHIUHCDKJSNKJHSD<br />
+                SGGKJGDSKJGKJSGDKGKGKH</td>
+            <td style="text-align: center">
+                &nbsp;</td>
+            <td style="text-align: center" class="style7">
+                <asp:Panel ID="Panel1" runat="server" Width="650px" Height="600px">
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                </asp:Panel>
+            
+                &nbsp;</td>
+            <td class="style3">
+            
+                <asp:Image ID="Image9" runat="server" ImageUrl="~/images/h.jpg" 
+                    style="margin-right: 0px" Width="350px" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <marquee style="margin-top: 0px; margin-bottom: 0px">Welcome to Website**2022</marquee></td>
+        </tr>
+    </table>
+    <div>
+        
+    </div>
+    </form>
+</body>
+</html>
